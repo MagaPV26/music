@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ 
+a {
+    text-decoration: none;
+}
+/*header*/
+
+body {
+    background-color: black;
+}
+p, h1, h2, h3, h4, h5 {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar {
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.192);
+}
+
+.title1 {
+    padding: 1%;
+}
+
+/*body*/
+
+.songs1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.title2 {
+    padding: 1%;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.taylor , .sheeran , .harry {
+    width: 40%;
+    height: 55%;
+    image-resolution: from-image 800dp;
+    border-radius: 8%;
+    border-style: solid;
+    border-color: rgba(118, 191, 255, 0.253);
+    margin-left: 30%;
+    margin-top: 2%;
+}
+
+#taylor , #sheeran , #harry {
+    text-align: center;
+    margin: 3%;
+    color: black;
+}
+
+#songs1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.artist {
+    background-color: rgba(171, 216, 255, 0.603);
+    margin: 2%;
+    border-radius: 8%;
+}
+
+.card-body {
+    display: flex;
+    text-align: center;
+}
+
+#parraf {
+    color: black;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-decoration: none;
+}
+
+.mostListened {
+    background-color: rgba(112, 191, 255, 0.527);
+    margin: 8%;
+    border-radius: 0 , 2% , 0 , 2%;
+}
+
+.titleListen {
+    padding: 2%;
+}
+
+#ol {
+    padding: 1%;
+}
+
+.onee , .twoo , .threee {
+    padding: 1%;
+    text-decoration: solid;
+}
+
+.a {
+    color: wheat;
+}
+
+.fearless {
+    width: 50%;
+    height: 60%;
+}
+
+.divide {
+    width: 50%;
+    height: 50%;
+}
+
+.fineline {
+    width: 50%;
+    height: 50%;
+}
+
+.fearless , .divide , .fineline {
+    border-radius: 2% 20% 2% 20%;
+    margin-left: 25%;
+    margin-top: 8%;
+    background-color: rgb(red, green, blue);
+}
+
+.oneee , .twooo , .threee {
+    border-radius: 15% 1% 15% 1%;
+}
+
+/*footer*/
+
+.footer {
+    background-color: rgb(53, 53, 53);
+    padding-top: 3%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#company {
+    color: white;
+    text-decoration: none;
+    font-size: 180%;
+}
+
+.margin {
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+
+#music {
+   color: green; 
+   text-decoration: solid;
+}
+
+.pfoot {
+    font-size: medium;
+    margin-left: 2%;
+}
+
+.explore , .follow , .legal , .bussines{
+    color: rgb(255, 255, 255);
+}
+
+#explore , #follow , #legal , #bussines {
+    text-decoration: none;
+    list-style: none;
+}
+
+#ex , #fo , #le , #bu {
+    color: rgb(209, 209, 209);
+}
+
+#sc {
+    text-decoration: none;
+    color: orange;
+}
+
+#r {
+    font-size: x-small;
+}
